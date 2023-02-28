@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/all.css" />
+  <link rel="stylesheet" href="fonts/Gilroy/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <title>Leonis Go</title>
+</head>
+
+<body>
+  <!--page wrapper-->
+  <div class="wrapper">
+    <!-- header section -->
+    <header class="header">
+      <div class="header__logo-text-wrap">
+        <div class="header__logo-wrap">
+          <a class="header__logo" href="index.html"><img src="images/header__logo.png" alt="logo" /></a>
+        </div>
+        <a href="index.html" class="header__logo-text">Leonis go</a>
+        <span class="header__logo-text-wrap-span"></span>
+      </div>
+
+
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li><a href="#" class="header__link">Пошук білетів</a></li>
+          <li><a href="#" class="header__link">Гарантії</a></li>
+          <li><a href="#" class="header__link">Підтримка</a></li>
+          <li><a href="#" class="header__link">Питання</a></li>
+          <li><a href="#" class="header__link">+38 (093) 47 13 613</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" class="header__btn">
+        <img class="header__btn-icon" src="images/btn__user_icon.png" alt="user icon" />
+        Мій кабінет
+      </button>
+
+      <div class="header__burger-menu">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </header>
+
+    <nav class="burger-menu__menu">
+      <ul class="burger-menu__list">
+        <li><a href="#" class="burger-menu__link">Пошук білетів</a></li>
+        <li><a href="#" class="burger-menu__link">Гарантії</a></li>
+        <li><a href="#" class="burger-menu__link">Підтримка</a></li>
+        <li><a href="#" class="burger-menu__link">Питання</a></li>
+        <li><a href="#" class="burger-menu__link">+38 (093) 47 13 613</a></li>
+      </ul>
+
+      <ul class="social-media__list sm-burger">
+        <li>
+          <a href="#" class="social-media__link "><img src="images/instagram_icon.png" alt="instagram icon" /></a>
+        </li>
+        <li>
+          <a href="#" class="social-media__link "><img src="images/telegram_icon.png" alt="telegram icon" /></a>
+        </li>
+        <li>
+          <a href="#" class="social-media__link "><img src="images/viber_icon.png" alt="viber icon" /></a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+
+    <!-- main section -->
+    <main>
+      <section class="main search">
+        <nav class="breadcrumb">
+          <ul>
+            <li><a href="#" class="active">Вибір рейсу</a></li>
+            <li style="color: #ffc600;">></li>
+            <li><a href="#" class="active">Пасажири</a></li>
+            <li style="color: #ffc600;">></li>
+            <li><a href="#">Оплата</a></li>
+          </ul>
+        </nav>
+        <span class="search__subtitle">Квитки на автобус</span>
+        <div class="search__title"><span>Львів</span>
+          <ul class="search__decor-ul">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <span>Варшава</span>
+        </div>
+
+        <section class="sec">
+          <form action="#" id="search__form" class="search__form">
+
+            <div class="select-wrapper select-from" data-state="">
+              <div class="select__title select-from__title" name="from" data-default="Option 0">Львів</div>
+              <div class="select__content">
+                <input id="singleSelect0" class="select__input" type="radio" name="singleSelect" checked />
+                <label for="singleSelect0" class="select__label">Option 0</label>
+                <input id="singleSelect1" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect1" class="select__label">Бердичів</label>
+                <input id="singleSelect2" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect2" class="select__label">Житомир </label>
+                <input id="singleSelect3" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect3" class="select__label">Київ</label>
+                <input id="singleSelect4" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect4" class="select__label">Харків</label>
+              </div>
+            </div>
+
+            <div class="select-wrapper select-to" data-state="">
+              <div class="select__title select-to__title" name="to" data-default="Option 0">Варшава</div>
+              <div class="select__content">
+                <input id="singleSelect0.1" class="select__input" type="radio" name="singleSelect" checked />
+                <label for="singleSelect0.1" class="select__label select-to__label">Option 0</label>
+                <input id="singleSelect1.1" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect1.1" class="select__label select-to__label">Бердичів </label>
+                <input id="singleSelect2.1" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect2.1" class="select__label select-to__label">Житомир </label>
+                <input id="singleSelect3.1" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect3.1" class="select__label select-to__label">Київ </label>
+                <input id="singleSelect4.1" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect4.1" class="select__label select-to__label">Харків </label>
+              </div>
+            </div>
+
+            <div class="select-wrapper select-date" data-state="">
+              <div class="select__title select-date__title select-passenger2" name="date" data-default="Option 0">07/06/2022</div>
+              <div class="select__content">
+                <input id="singleSelect0.2" class="select__input" type="radio" name="singleSelect" checked />
+                <label for="singleSelect0.2" class="select__label select-date__label">Option 0</label>
+                <input id="singleSelect1.2" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect1.2" class="select__label select-date__label">07/06/2022 </label>
+                <input id="singleSelect2.2" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect2.2" class="select__label select-date__label">07/06/2022 </label>
+                <input id="singleSelect3.2" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect3.2" class="select__label select-date__label">07/06/2022 </label>
+                <input id="singleSelect4.2" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect4.2" class="select__label select-date__label">07/06/2022 </label>
+              </div>
+            </div>
+
+            <div class="select-wrapper select-passangers" data-state="">
+              <div class="select__title select-passangers__title" id="passangers" name="passangers"
+                data-default="Option 0">1 пасажир</div>
+              <div class="select__content">
+                <input id="singleSelect0.3" class="select__input" type="radio" name="singleSelect" checked />
+                <label for="singleSelect0.3" class="select__label select-passangers__label">Option 0</label>
+                <input id="singleSelect1.3" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect1.3" class="select__label select-passangers__label">2</label>
+                <input id="singleSelect2.3" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect2.3" class="select__label select-passangers__label">3 </label>
+                <input id="singleSelect3.3" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect3.3" class="select__label select-passangers__label">4</label>
+                <input id="singleSelect4.3" class="select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect4.3" class="select__label select-passangers__label">5 </label>
+              </div>
+            </div>
+            </dav>
+
+          </form>
+          <div class="buttons-row">
+            <div class="buttons-row__col1">
+              <button class="btn-sort" type="button" >Найдешевші</button>
+              <button class="btn-sort" type="button" >Найшвидші</button>
+            </div>
+            <div class="buttons-row__col2">
+              <button class="btn-shadow" type="button">Завтра</button>
+              <button class="search-btn" type="button">Післязавтра</button>
+              <a href="search-step2.html" class="btn">Знайти квиток</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="search__tickets tickets">
+          <div class="tickets__ticket ticket">
+            <div class="ticket__content">
+              <div class="ticket__row1 ticket-info">
+                <div class="ticket-info__direction direction-col">
+                  <div class="direction-col__from">
+                    <h2 class="direction-col__time">22:00</h2>
+                    <h3 class="direction-col__city h3">Львів <span>27 липня</span></h3>
+                    <p class="direction-col__description">Автовокзал "Центральний Львів" вул Стрийська, 109</p>
+                  </div>
+                  <div class="direction-col__to">
+                    <h2 class="direction-col__time">02:00</h2>
+                    <h3 class="direction-col__city h3">
+                      <ul class="form__decor-ul ticket__decor-ul">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>Варшава <span>27 липня</span></h3>
+                    <p class="direction-col__description">Автовокзал "Центральний Львів" вул Стрийська, 109</p>
+                  </div>
+                </div>
+                <div class="price-col">
+                  <h2 class="price-col__price">1100 <span>грн</span></h2>
+                  <h3 class="price-col__seat">10+ місць</h3>
+                 <a href="search-step2.html"> <button class="price-col__btn search-btn" type="button " value="Обрати">Обрати</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="ticket__row2 details">
+              <div class="details__col1 details-col1">
+                <div class="details__btn details__btn1">
+                  <button class="btn-details">Деталі</button>
+                </div>
+                <span class="details-col1__driver">Перевізник: KLR Bus</span>
+                <span class="details-col1__driver">Автобус: VAN HOOL 927 SD3</span>
+              </div>
+
+              <div class="details-col2">
+                <p class="details-col2__electro-ticket"><a href="#" download="#">Електронний квиток</a></p>
+              </div>
+            </div>
+
+            <div class="details__content details-section">
+  
+              <div class="details-section__info">
+                <h3 class="h3">Oсновна інформація</h3>
+                <ul>
+                  <li>Маршрут: 009 Херсон - Бонн</li>
+                  <li>Періодичність: Щодня</li>
+                  <li>Доступний багаж: Не більше 2 сумок, розм: 40*60*90 см (загальна вага: Польща - 30 кг; Німеччина - 40 кг) + ручна поклажа 5 кг</li>
+                  <li>Виїзд та прибуття за місцевим часом</li>
+                </ul>
+              </div>
+              <div class="details-section__discaunt">
+                <h3 class="h3">Знижки:</h3>
+                <ul>
+                  <li>50% Дитячий - до 6 років 20% </li>
+                  <li> Діти від 7 до 15 років 15</li>
+                  <li>15% Групова поїздка від 5 чоловік</li>
+                  <li>10% студент ISIC до 26 років</li>
+                  <li>10% Пенсіонери (від 60 років)</li>
+                </ul>
+              </div>
+          </div>
+          </div>
+          
+
+          <div class="tickets__ticket ticket">
+            <div class="ticket__content">
+              <div class="ticket__row1 ticket-info">
+                <div class="ticket-info__direction direction-col">
+                  <div class="direction-col__from">
+                    <h2 class="direction-col__time">22:00</h2>
+                    <h3 class="direction-col__city h3">Львів <span>27 липня</span></h3>
+                    <p class="direction-col__description">Автовокзал "Центральний Львів" вул Стрийська, 109</p>
+                  </div>
+                  <div class="direction-col__to">
+                    <h2 class="direction-col__time">02:00</h2>
+                    <h3 class="direction-col__city h3">
+                      <ul class="form__decor-ul ticket__decor-ul">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                      </ul>
+                      Варшава <span>27 липня</span></h3>
+                    <p class="direction-col__description">Автовокзал "Центральний Львів" вул Стрийська, 109</p>
+                  </div>
+                </div>
+                <div class="price-col">
+                  <h2 class="price-col__price">1100 <span>грн</span></h2>
+                  <h3 class="price-col__seat">10+ місць</h3>
+                  <a href="search-step2.html"><button class="price-col__btn search-btn" type="button " value="Обрати">Обрати</button></a >
+                </div>
+              </div>
+
+            </div>
+            <div class="ticket__row2 details">
+
+              <div class="details__col1 details-col1">
+                <div class="details__btn details__btn2">
+                  <button class="btn-details">Деталі</button>
+                </div>
+                <span class="details-col1__driver">Перевізник: KLR Bus</span>
+                <span class="details-col1__driver">Автобус: VAN HOOL 927 SD3</span>
+              </div>
+
+              <div class="details-col2">
+                <p class="details-col2__electro-ticket"><a href="#" download="#">Електронний квиток</a></p>
+              </div>
+            </div>
+
+            <div class="details__content details-section">
+  
+              <div class="details-section__info">
+                <h3 class="h3">Oсновна інформація</h3>
+                <ul>
+                  <li>Маршрут: 009 Херсон - Бонн</li>
+                  <li>Періодичність: Щодня</li>
+                  <li>Доступний багаж: Не більше 2 сумок, розм: 40*60*90 см (загальна вага: Польща - 30 кг; Німеччина - 40 кг) + ручна поклажа 5 кг</li>
+                  <li>Виїзд та прибуття за місцевим часом</li>
+                </ul>
+              </div>
+              <div class="details-section__discaunt">
+                <h3 class="h3">Знижки:</h3>
+                <ul>
+                  <li>50% Дитячий - до 6 років 20% </li>
+                  <li> Діти від 7 до 15 років 15</li>
+                  <li>15% Групова поїздка від 5 чоловік</li>
+                  <li>10% студент ISIC до 26 років</li>
+                  <li>10% Пенсіонери (від 60 років)</li>
+                </ul>
+              </div>
+          </div>
+          </div>
+
+          <div class="tickets__ticket ticket">
+            <div class="ticket__content">
+              <div class="ticket__row1 ticket-info">
+                <div class="ticket-info__direction direction-col">
+                  <div class="direction-col__from">
+                    <h2 class="direction-col__time">22:00</h2>
+                    <h3 class="direction-col__city h3">Львів <span>27 липня</span></h3>
+                    <p class="direction-col__description">Автовокзал "Центральний Львів" вул Стрийська, 109</p>
+                  </div>
+                  <div class="direction-col__to">
+                    <h2 class="direction-col__time">02:00</h2>
+                    <h3 class="direction-col__city h3">
+                      <ul class="form__decor-ul ticket__decor-ul">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                      </ul>
+                      Варшава <span>27 липня</span></h3>
+                    <p class="direction-col__description">Автовокзал "Центральний Львів" вул Стрийська, 109</p>
+                  </div>
+                </div>
+                <div class="price-col">
+                  <h2 class="price-col__price">1100 <span>грн</span></h2>
+                  <h3 class="price-col__seat">10+ місць</h3>
+                  <a href="search-step2.html"><button class="price-col__btn search-btn" type="button " value="Обрати">Обрати</button></a>
+                </div>
+              </div>
+
+            </div>
+            <div class="ticket__row2 details">
+
+              <div class="details__col1 details-col1">
+                <div class="details__btn details__btn3">
+                  <button class="btn-details">Деталі</button>
+                </div>
+                <span class="details-col1__driver">Перевізник: KLR Bus</span>
+                <span class="details-col1__driver">Автобус: VAN HOOL 927 SD3</span>
+              </div>
+
+              <div class="details-col2">
+                <p class="details-col2__electro-ticket"><a href="#" download="#">Електронний квиток</a></p>
+              </div>
+            </div>
+
+            <div class="details__content details-section">
+                <div class="details-section__info">
+                  <h3 class="h3">Oсновна інформація</h3>
+                  <ul>
+                    <li>Маршрут: 009 Херсон - Бонн</li>
+                    <li>Періодичність: Щодня</li>
+                    <li>Доступний багаж: Не більше 2 сумок, розм: 40*60*90 см (загальна вага: Польща - 30 кг; Німеччина - 40 кг) + ручна поклажа 5 кг</li>
+                    <li>Виїзд та прибуття за місцевим часом</li>
+                  </ul>
+                </div>
+                <div class="details-section__discaunt">
+                  <h3 class="h3">Знижки:</h3>
+                  <ul>
+                    <li>50% Дитячий - до 6 років 20% </li>
+                    <li> Діти від 7 до 15 років 15</li>
+                    <li>15% Групова поїздка від 5 чоловік</li>
+                    <li>10% студент ISIC до 26 років</li>
+                    <li>10% Пенсіонери (від 60 років)</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+
+
+      <!-- question section  -->
+      <section class="question">
+        <h2 class="question__title">Залишились питання?</h2>
+        <p class="question__subtitle">
+          Задайте їх у нашому віртуальному чаті, або залиште заявку і ми
+          зв’яжемось з вами
+        </p>
+
+        <div class="question__form-wrap">
+          <div class="question__img-bg">
+            <img src="images/question__bg.webp" alt="">
+          </div>
+          <form action="#" class="question__form">
+            <input type="text" name="first-name" placeholder="Як вас звати?" />
+            <input onclick="phoneMask()" type="tel" name="phone" id="phone" placeholder="Номер вашого телефону" data-phone-pattern />
+            <textarea name="" id="" cols="30" rows="10" placeholder="Суть вашого запиту"></textarea>
+            <input class="btn question__btn" type="button" value="Передзвоніть мені" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer sectin -->
+    <footer class="footer">
+      <div class="footer__logo-wrap">
+        <a href="#"><img src="images/footer_logo.png" alt="" class="footer__logo" /></a>
+        <a href="#" class="footer__logo-text">Leonis go</a>
+      </div>
+      <div class="footer__info info-menu">
+        <h3 class="info-menu__title">ІНФОРМАЦіЯ</h3>
+        <nav class="">
+          <ul class="info-menu__list">
+            <li><a href="#" class="info-menu__link">Плани та вартість</a></li>
+            <li><a href="#" class="info-menu__link">О нас</a></li>
+            <li><a href="#" class="info-menu__link">Вакансії</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__legal legal-menu">
+        <h3 class="legal-menu__title">ЮРИДИЧНИЙ</h3>
+        <nav class="">
+          <ul class="legal-menu__list">
+            <li><a href="#" class="legal-menu__link">Ліцензійна угода</a></li>
+            <li>
+              <a href="#" class="legal-menu__link">Політика конфіденційності</a>
+            </li>
+            <li><a href="#" class="legal-menu__link">Підтримка</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__social-media">
+        <nav class="">
+          <ul class="social-media__list">
+            <li>
+              <a href="#" class="social-media__link"><img src="images/instagram_icon.png" alt="instagram icon" /></a>
+            </li>
+            <li>
+              <a href="#" class="social-media__link"><img src="images/telegram_icon.png" alt="telegram icon" /></a>
+            </li>
+            <li>
+              <a href="#" class="social-media__link"><img src="images/viber_icon.png" alt="viber icon" /></a>
+              <a id="popup2" href="#popup"></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

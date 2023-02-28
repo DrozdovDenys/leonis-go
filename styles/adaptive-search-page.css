@@ -1,0 +1,579 @@
+@media screen and (max-width: 1440px) {
+    .search {
+        padding: 118px 0px 25px 0px;
+    }
+    .search__subtitle,
+    .tickets::after,
+    .details-col2 {
+        display: none;
+    }
+    .passanger-data__title {
+        font-size: calc(20px + 16 * ((100vw - 320px) / (1440 - 320)));
+    }
+    .search-step2__title {
+        display: block;
+        font-size: calc(22px + 28 * ((100vw - 320px) / (1440 - 320)));
+        padding-left: 35px;
+        letter-spacing: 1px;
+    }
+    .sec::after {
+        left: 62%;
+        top: -61%;
+    }
+    .sec::before {
+        right: -22%;
+        top: -37%;
+    }
+    .breadcrumb {
+        margin-bottom: 47px;
+        padding-left: 39px;
+    }
+    .search__decor-ul li::before {
+        width: 8px;
+        height: 8px;
+    }
+    .search__decor-ul {
+        padding-top: 0px;
+        padding-right: 13px;
+        gap: 19px;
+    }
+    .search__form {
+        padding: 0 39px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        width: 100%;
+        row-gap: 29px;
+        justify-content: space-between;
+    }
+    .search__form .select-wrapper {
+        margin: 0;
+        gap: 10px;
+    }
+    .search__form .select-from::before,
+    .search__form .select-to::before {
+        display: none;
+    }
+    .search__form .select-from__title,
+    .search__form .select-to__title {
+        padding: 8px 25px;
+    }
+    .search__form .select-passangers::before,
+    .search__form .select-date::before,
+    .search__form .select-from::before,
+    .search__form .select-to::before {
+        width: 30px;
+        height: 30px;
+        background-size: 100%;
+        top: calc(50% - 15px);
+    }
+    .select-wrapper.select-passangers,
+    .select-wrapper.select-date {
+        z-index: 1;
+    }
+    .select__content {
+        z-index: 3;
+    }
+    .buttons-row__col2 .btn {
+        z-index: 0;
+    }
+    .search .select-wrapper {
+        width: 49%;
+    }
+    .search__title {
+        padding-left: 39px;
+        gap: 11px;
+        margin-bottom: 32px;
+    }
+    .passanger-data__form {
+        justify-content: center;
+    }
+    .search__form #passangers {
+        font-size: 18px;
+    }
+    .buttons-row {
+        flex-wrap: wrap;
+        padding: 0 39px;
+        row-gap: 39px;
+        margin-bottom: 11px;
+    }
+    .buttons-row__col1 {
+        flex-basis: 100%;
+        order: 2;
+    }
+    .buttons-row__col2 {
+        flex-basis: 100%;
+        justify-content: flex-start;
+    }
+    .search-btn {
+        margin-right: 18px;
+        font-size: 15px;
+    }
+    .ticket {
+        margin-bottom: 20px;
+    }
+    .ticket__content {
+        padding: 0px 40px 0px 47px;
+    }
+    .ticket-info {
+        flex-wrap: wrap;
+    }
+    .price-col {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        gap: 35px;
+        align-items: flex-start;
+    }
+    .price-col__seat {
+        order: 3;
+        padding-right: 20px;
+        margin-top: 16px;
+    }
+    .ticket-info__direction {
+        width: 100%;
+        padding-top: 23px;
+        padding-bottom: 25px;
+    }
+    .details {
+        background-color: #262321;
+        color: white;
+        padding: 0 40px 5px 48px;
+        border-radius: 0px !important;
+    }
+    .details-col1 {
+        width: 100%;
+        gap: 0%;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .details__content {
+        flex-wrap: wrap;
+        gap: 0%;
+    }
+    .details-section__info {
+        width: 100%;
+    }
+    .details-open {
+        padding: 30px 40px 30px 74px;
+        height: 543px;
+    }
+    .details__btn button {
+        margin-right: 85px;
+        padding: 10px 35px;
+    }
+    .details__btn::before {
+        left: 7%;
+    }
+    .details__content ul li {
+        font-size: 16px;
+    }
+    .direction-col {
+        border-right: none;
+        gap: 44px;
+    }
+    .direction-col__description {
+        font-size: 16px;
+        line-height: 1;
+    }
+    .btn-shadow {
+        margin-right: 10px;
+        padding: 19px 42px;
+        font-size: 15px;
+    }
+    .search-btn {
+        padding: 19px 42px;
+        margin-right: 44px;
+    }
+    .price-col__price {
+        font-size: 45px;
+        padding: 0;
+    }
+    .price-col__price span {
+        color: #000;
+        font-size: 30px;
+    }
+    .price-col .search-btn {
+        margin-right: 0;
+        padding: 19px 66px;
+    }
+    .details-open {
+        padding: 24px 40px 30px 85px;
+    }
+    .details__content {
+        border-radius: 0;
+    }
+    .details__content .h3 {
+        width: 280px;
+        padding-bottom: 16px;
+        padding-top: 20px;
+        font-size: 21px;
+    }
+    .details__content ul li {
+        line-height: 30px;
+    }
+    /* --------search2----------- */
+    .sec-step2::after {
+        left: 75%;
+
+        top: -15%;
+    }
+    .sec-step2::before {
+        display: none;
+    }
+    .search-step2 {
+        padding-bottom: 180px;
+    }
+    .passanger-data__content {
+        padding-top: 54px;
+    }
+    .passanger-data__content div {
+        flex-wrap: wrap;
+    }
+    .passangers-amount {
+        justify-content: flex-start !important;
+        align-items: center;
+        padding-bottom: 43px;
+    }
+    .select-discaunt {
+        width: 490px !important;
+    }
+    .passanger-data__form #passangers {
+        font-size: 24px;
+    }
+    .passanger-data__content .select__title {
+        padding: 8px 42px;
+    }
+    .passanger-data__content {
+        padding: 40px 45px;
+    }
+    .passanger-data .ticket__content {
+        opacity: 1;
+    }
+    .passanger-data__content div h3 + h3 {
+        position: absolute;
+        bottom: -30%;
+        left: 35%;
+    }
+    .btn-absolute {
+        position: absolute;
+        bottom: -80%;
+        left: 34%;
+    }
+   .popup__content .search-step2__title {
+        margin-bottom: 5vw;
+      }
+}
+
+@media screen and (max-width: 1150px) {
+    /* ----------search-step2--------------- */
+
+    .passanger-data__content div h3 + h3 {
+        bottom: -20%;
+    }
+    .btn-absolute {
+        bottom: -60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .search__subtitle,
+    .sec::before,
+    .tickets::after,
+    .details-col2 {
+        display: none;
+    }
+    .search-step2__title {
+        display: block;
+    }
+    .price-col {
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
+        gap: 35px;
+        align-items: flex-start;
+    }
+
+    /* ----------search-step2--------------- */
+    .passanger-data__form {
+        justify-content: flex-start;
+    }
+    .passanger-data__content div h3 + h3 {
+        bottom: -20%;
+    }
+    .passangers-amount {
+        align-items: center;
+    }
+    .btn-absolute {
+        bottom: -60%;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .buttons-row {
+        margin: 0 auto;
+        padding: 3vw;
+        max-width: 400px;
+
+    }
+    .buttons-row__col2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .buttons-row__col2 .search-btn {
+        margin-right: 0;
+    }
+    .buttons-row__col1 {
+        display: flex;
+    justify-content: center;
+    }
+    .direction-col {
+        flex-wrap: wrap;
+    }
+    .ticket__decor-ul {
+        position: absolute;
+        top: -285%;
+        left: 0px;
+        gap: 16px;
+    }
+
+    /* searh-step2 */
+    .passangers-amount {
+        flex-wrap: nowrap;
+        justify-content: center !important;
+    }
+
+      /* adaptive popup */
+      .popup__content .ticket__decor-ul {
+        top: -468%;
+      }
+      .popup__content {
+        padding: 28px 68px 31px 42px;
+      }
+}
+
+@media screen and (max-width: 625px) {
+    .search {
+        padding: 31px 0px 25px 0px;
+    }
+    .search-step2 {
+        padding: 31px 0px 165px 0px;
+    }
+    .details {
+        padding: 0 20px 5px 20px;
+    }
+    .details-col1 {
+        justify-content: space-between;
+    }
+    .price-col {
+        flex-wrap: wrap;
+        justify-content: center;
+       row-gap: 5px;
+    }
+    .price-col__price {
+        width: 100%;
+        text-align: center;
+
+    }
+    .details-col1__driver:last-child {
+        padding-left: 15px;
+    }
+    .details-col1__driver {
+        font-size: 12px;
+    }
+    .details__btn button {
+        margin-right: 10vw;
+    }
+    .search .select-wrapper {
+        width: 100%;
+    }
+    .search .select-from {
+        z-index: 4;
+    }
+    .search .select-to {
+        z-index: 3;
+    }
+    .search .select-date {
+        z-index: 2;
+    }
+    .search .select-passangers {
+        z-index: 1;
+    }
+
+     /* searh-step2 */
+     .passangers-amount {
+        flex-wrap: nowrap;
+    }
+    .passangers-amount h2 {
+        width: 50%;
+    }
+    .passanger-data__content div h3 + h3 {
+        position: absolute;
+        bottom: -30%;
+        left: 10%;
+    }
+    .passanger-data__form input {
+        padding: 10px 20px;
+    }
+    .passanger-data__form #passangers {
+        font-size: 20px;
+    }
+    .passanger-data__content .select__title {
+        padding: 8px 20px;
+    }
+    .search-step2 .select-wrapper {
+        width: 25%;
+        height: 44px;
+    }
+    .sec-step2 .search__form {
+        row-gap: 15px;
+    }
+    .passanger-data__form input::placeholder{
+        font-size: 20px;
+    }
+    .btn-absolute {
+        left: 10%;
+        bottom: -75%;
+    }
+
+      /* adaptive popup */
+      .popup__content {
+        padding: 18px 27px 10px 32px;
+    }
+    .popup__title {
+        margin-bottom: 14px;
+    }
+    .popup__ticket {
+        gap: 30px;
+    }
+    .popup__content .ticket__decor-ul {
+        top: -375%;
+        left: -21px;
+    }
+    .popup__btn {
+        margin-left: 3%;
+        background-color: #ffc600;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .ticket__content h3 + h3 {
+        font-size: 30px;
+    }
+    .passanger-data__form input {
+        width: 100%;
+    }
+    .sec-step2 .passanger-data__form {
+        padding: 0;
+    }
+    .price-col__price span {
+        color: #000;
+        font-size: 25px;
+    }
+    .amount {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        font-size: 30px;
+    }
+    .passangers-amount {
+        padding-bottom: 15px;
+    }
+
+     /* adaptive popup */
+     .popup__content {
+        width: 90%;
+    }
+    .popup__close {
+        top: -5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .search__decor-ul li::before {
+        width: 6px;
+        height: 6px;
+    }
+    .search .select-wrapper {
+        height: 40px;
+    }
+    .search__form {
+        gap: 15px;
+    }
+    .search__form .select__title {
+        font-size: 16px;
+    }
+  .search__form .select-passangers::before,
+    .search__form .select-date::before {
+        width: 20px;
+        height: 20px;
+        background-size: 100%;
+        top: calc(50% - 10px);
+    }
+    .buttons-row__col2 .btn {
+        margin-top: 20px;
+        height: 45px;
+    font-size: 17px;
+    }
+    .buttons-row {
+        row-gap: 25px;
+    }
+    .direction-col__time, .price-col__price {
+        font-size: 30px;
+    }
+    .price-col .search-btn {
+        margin-right: 0;
+        padding: 16px 46px;
+    }
+    .details__btn button {
+        margin-right: 85px;
+        padding: 5px 20px;
+        margin-right: 5vw;
+        border-radius: 5px;
+    }
+    .details-open, .details-open2, .details-open3 {
+        padding: 30px 40px 30px 40px;
+        height: 451px;
+    }
+    .details__btn::before {
+        border-left: 3px solid black;
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        top: calc(50% - 3px);
+    }
+    .details__content .h3 {
+        width: 250px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .details__content ul {
+        padding-top: 5px;
+    }
+    .details__content ul li {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+     /* searh-step2 */
+     .search-step2 {
+        padding: 31px 0px 145px 0px;
+    }
+     .passangers-amount h2{
+      margin-bottom: 0;
+    }
+    .btn-absolute {
+        left: 0%;
+        width: 200px;
+        height: 35px;
+        margin-left: 25%;
+        bottom: -65%;
+    }
+    .ticket__content h3 + h3 {
+        font-size: 27px;
+    }
+    /* poppup */
+    .popup__ticket .direction-col__description:last-child {
+        margin-bottom: 40px;
+    }
+}

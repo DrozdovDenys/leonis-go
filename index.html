@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/all.css" />
+  <link rel="stylesheet" href="fonts/Gilroy/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <title>Leonis Go</title>
+</head>
+
+<body>
+  <!--page wrapper-->
+  <div class="wrapper">
+    <!-- header section -->
+    <header class="header">
+      <div class="header__logo-text-wrap">
+        <div class="header__logo-wrap">
+          <a class="header__logo" href="#"><img src="images/header__logo.png" alt="logo" /></a>
+        </div>
+        <a href="index.html" class="header__logo-text">Leonis go</a>
+        <span class="header__logo-text-wrap-span"></span>
+      </div>
+      
+
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li><a href="#" class="header__link">Пошук білетів</a></li>
+          <li><a href="#" class="header__link">Гарантії</a></li>
+          <li><a href="#" class="header__link">Підтримка</a></li>
+          <li><a href="#" class="header__link">Питання</a></li>
+          <li><a href="#" class="header__link">+38 (093) 47 13 613</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" class="header__btn">
+        <img class="header__btn-icon" src="images/btn__user_icon.png" alt="user icon" />
+        Мій кабінет
+      </button>
+
+      <div class="header__burger-menu">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </header>
+
+      <nav class="burger-menu__menu">
+        <ul class="burger-menu__list">
+          <li><a href="#" class="burger-menu__link">Пошук білетів</a></li>
+          <li><a href="#" class="burger-menu__link">Гарантії</a></li>
+          <li><a href="#" class="burger-menu__link">Підтримка</a></li>
+          <li><a href="#" class="burger-menu__link">Питання</a></li>
+          <li><a href="#" class="burger-menu__link">+38 (093) 47 13 613</a></li>
+        </ul>
+
+        <ul class="social-media__list sm-burger">
+          <li>
+            <a href="#" class="social-media__link "><img src="images/instagram_icon.png" alt="instagram icon" /></a>
+          </li>
+          <li>
+            <a href="#" class="social-media__link "><img src="images/telegram_icon.png" alt="telegram icon" /></a>
+          </li>
+          <li>
+            <a href="#" class="social-media__link "><img src="images/viber_icon.png" alt="viber icon" /></a>
+          </li>
+        </ul>
+      </nav>
+    <hr>
+
+    <!-- main section -->
+    <main>
+      <section class="main">
+        <h1 class="main__title">Міжнародні автобусні перевезення</h1>
+        <ul class="main__sub-title">
+          <li>Україна</li>
+          <li>Польща</li>
+          <li>Чехія</li>
+          <li>Німеччина</li>
+          <li>Італія</li>
+          <li>Бельгія</li>
+          <li>Болгарія</li>
+          <li>Нідерланди</li>
+        </ul>
+        <section class="main__bg">
+          <div class="main__decor"></div>
+          <form action="#" id="main-form" class="main__form form">
+            <h2 class="form__title">Замовити квиток</h2>
+            <span class="form__subtitle">лише в 1 клік</span>
+
+              <div class="select-wrapper select-from" data-state="">
+                <div class="select__title" name="from" data-default="Option 0">Звідки</div>
+                <div class="select__content">
+                  <input id="singleSelect0" class="select__input" type="radio" name="singleSelect" checked />
+                  <label for="singleSelect0" class="select__label">Option 0</label>
+                  <input id="singleSelect1" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect1" class="select__label">Бердичів</label>
+                  <input id="singleSelect2" class="select__input" type="radio" name="singleSelect"  />
+                  <label for="singleSelect2" class="select__label">Житомир </label>
+                  <input id="singleSelect3" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect3" class="select__label">Київ</label>
+                  <input id="singleSelect4" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect4" class="select__label">Харків</label>
+                </div>
+              </div>
+
+              <div class="select-wrapper select-to" data-state="">
+                <div class="select__title select-to__title" name="to" data-default="Option 0">Куди</div>
+                <div class="select__content">
+                  <input id="singleSelect0.1" class="select__input" type="radio" name="singleSelect" checked />
+                  <label for="singleSelect0.1" class="select__label select-to__label">Option 0</label>
+                  <input id="singleSelect1.1" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect1.1" class="select__label select-to__label">Бердичів </label>
+                  <input id="singleSelect2.1" class="select__input" type="radio" name="singleSelect"  />
+                  <label for="singleSelect2.1" class="select__label select-to__label">Житомир  </label>
+                  <input id="singleSelect3.1" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect3.1" class="select__label select-to__label">Київ </label>
+                  <input id="singleSelect4.1" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect4.1" class="select__label select-to__label">Харків </label>
+                </div>
+              </div>
+
+              <div class="select-wrapper select-date" data-state="">
+                <div class="select__title select-date__title select-passenger2" name="date" data-default="Option 0">07/06/2022</div>
+                <div class="select__content">
+                  <input id="singleSelect0.2" class="select__input" type="radio" name="singleSelect" checked />
+                  <label for="singleSelect0.2" class="select__label select-date__label">Option 0</label>
+                  <input id="singleSelect1.2" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect1.2" class="select__label select-date__label">07/06/2022 </label>
+                  <input id="singleSelect2.2" class="select__input" type="radio" name="singleSelect"  />
+                  <label for="singleSelect2.2" class="select__label select-date__label">07/06/2022  </label>
+                  <input id="singleSelect3.2" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect3.2" class="select__label select-date__label">07/06/2022 </label>
+                  <input id="singleSelect4.2" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect4.2" class="select__label select-date__label">07/06/2022 </label>
+                </div>
+              </div>
+
+              <div class="select-wrapper select-passangers select-passangers-z" data-state="">
+                <div class="select__title select-passangers__title" id="passangers" name="passangers" data-default="Option 0">1 пасажир</div>
+                <div class="select__content">
+                  <input id="singleSelect0.3" class="select__input" type="radio" name="singleSelect" checked />
+                  <label for="singleSelect0.3" class="select__label select-passangers__label">Option 0</label>
+                  <input id="singleSelect1.3" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect1.3" class="select__label select-passangers__label">2</label>
+                  <input id="singleSelect2.3" class="select__input" type="radio" name="singleSelect"  />
+                  <label for="singleSelect2.3" class="select__label select-passangers__label">3 </label>
+                  <input id="singleSelect3.3" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect3.3" class="select__label select-passangers__label">4</label>
+                  <input id="singleSelect4.3" class="select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect4.3" class="select__label select-passangers__label">5 </label>
+                </div>
+              </div>
+           </dav>
+            <a href="search.html" class="btn" type="button">Замовити</a>
+            <img src="images/main__bg_right_girl.webp" class="main__form-girl-img" alt="">
+            <ul class="form__decor-ul">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </form>
+        </section>
+      </section>
+
+      <!-- discount section  -->
+      <section class="discount">
+        <div class="discaunt__wrapper-title">
+          <h2 class="discaunt__title">Постійні знижки</h2>
+          <span class="discaunt__subtitle">
+            для пільгових категорій пасажирів</span>
+        </div>
+        <div class="discaunt__row">
+          <div class="discaunt-circle circle1">
+            <div class="discaunt-circle__title">-50%</div>
+            <div class="discaunt-circle__text"> для дітей <br> до 6 років</div>
+          </div>
+          <div class="discaunt-circle circle2">
+            <div class="discaunt-circle__title">-20%</div>
+            <div class="discaunt-circle__text"> для дітей <br> 7-15 років</div>
+          </div>
+          <div class="discaunt-circle circle3">
+            <div class="discaunt-circle__title">Без</div>
+            <div class="discaunt-circle__text"> передплати</div>
+          </div>
+          <div class="discaunt-circle circle4">
+            <div class="discaunt-circle__title">-10%</div>
+            <div class="discaunt-circle__text"> пенсіонерам <br> від 60 років</div>
+          </div>
+          <div class="discaunt-circle circle5">
+            <div class="discaunt-circle__title">-15%</div>
+            <div class="discaunt-circle__text"> групова поїздка <br> 5 oсіб і більше</div>
+          </div>
+        </div>
+      </section>
+ 
+
+      <!-- question section  -->
+      <section class="question">
+        <h2 class="question__title">Залишились питання?</h2>
+        <p class="question__subtitle">
+          Задайте їх у нашому віртуальному чаті, або залиште заявку і ми
+          зв’яжемось з вами
+        </p>
+
+     <div class="question__form-wrap">
+      <div class="question__img-bg">
+        <img src="images/question__bg.webp" alt="">
+      </div>
+          <form action="#" class="question__form">
+            <input type="text" name="first-name" placeholder="Як вас звати?" />
+            <input onclick="phoneMask()" type="tel" name="phone" id="phone" placeholder="Номер вашого телефону" data-phone-pattern  />
+            <textarea name="" id="" cols="30" rows="10" placeholder="Суть вашого запиту"></textarea>
+            <input class="btn question__btn" type="button" value="Передзвоніть мені" />
+          </form>
+     </div>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="footer__logo-wrap">
+        <a href="#"><img src="images/footer_logo.png" alt="" class="footer__logo" /></a>
+        <a href="#" class="footer__logo-text">Leonis go</a>
+      </div>
+      <div class="footer__info info-menu">
+        <h3 class="info-menu__title">ІНФОРМАЦіЯ</h3>
+        <nav class="">
+          <ul class="info-menu__list">
+            <li><a href="#" class="info-menu__link">Плани та вартість</a></li>
+            <li><a href="#" class="info-menu__link">О нас</a></li>
+            <li><a href="#" class="info-menu__link">Вакансії</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__legal legal-menu">
+        <h3 class="legal-menu__title">ЮРИДИЧНИЙ</h3>
+        <nav class="">
+          <ul class="legal-menu__list">
+            <li><a href="#" class="legal-menu__link">Ліцензійна угода</a></li>
+            <li>
+              <a href="#" class="legal-menu__link">Політика конфіденційності</a>
+            </li>
+            <li><a href="#" class="legal-menu__link">Підтримка</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__social-media">
+        <nav class="">
+          <ul class="social-media__list">
+            <li>
+              <a href="#" class="social-media__link"><img src="images/instagram_icon.png" alt="instagram icon" /></a>
+            </li>
+            <li>
+              <a href="#" class="social-media__link"><img src="images/telegram_icon.png" alt="telegram icon" /></a>
+            </li>
+            <li>
+              <a href="#" class="social-media__link"><img src="images/viber_icon.png" alt="viber icon" /></a>
+              <a id="popup2" href="#popup"></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

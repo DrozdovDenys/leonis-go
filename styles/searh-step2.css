@@ -1,0 +1,227 @@
+.search-step2__title {
+  margin-bottom: 50px;
+}
+.passanger-data__form {
+  align-items: baseline;
+}
+.passanger-data__title {
+  font-size: 36px;
+  color: #262321;
+  font-weight: bold;
+  margin-bottom: 26px;
+  white-space: nowrap;
+}
+.passanger-data__content {
+  padding-top: 42px;
+  padding-bottom: 50px;
+  border-radius: 25px;
+}
+.passanger-data__form input {
+  width: 490px;
+  box-shadow: 0 0 10px 2px #f4f2f0;
+  padding: 20px 45px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.passanger-data__form .select-wrapper {
+  width: 32%;
+}
+.passanger-data__form input::placeholder {
+  font-size: 24px;
+  font-weight: 600;
+}
+.select-discaunt::before {
+  display: none;
+}
+.passangers-amount {
+  font-size: 36px;
+  align-items: center;
+  font-weight: bold;
+  gap: 6%;
+}
+.passangers-amount .price-col__price {
+  padding-right: 0;
+}
+.sign {
+  font-size: 45px;
+  cursor: pointer;
+}
+.amount {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.ticket-info-step2 {
+  justify-content: flex-start;
+  gap: 17%;
+}
+.passanger-data__content {
+  z-index: 0;
+}
+.passanger-data__content div {
+  display: flex;
+  justify-content: space-between;
+}
+.ticket__content h3 + h3 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 0.5;
+}
+.btn-step2 {
+  width: 320px;
+  height: 55px;
+  margin-left: 12%;
+}
+.btn-step2 a {
+  color: #fff;
+  font-size: 18px;
+}
+.btn-step2:hover {
+  background-color: #ffc600;
+}
+.bg-dark {
+  background-color: #262321;
+  color: white;
+}
+.bg-dark .details-col2__electro-ticket a {
+  color: white;
+}
+.bg-dark .details-col2__electro-ticket::before {
+  background-image: url(../images/search-page/cash-icon-white.png);
+}
+.search-step2 {
+  padding-bottom: 66px;
+}
+.opacity {
+  opacity: 1;
+}
+.passanger-data__content div h3+h3 {
+  white-space: nowrap;
+}
+
+/*------------------------popup------------------- */
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 2, 2, 0.836);
+  top: 0;
+  left: 0;
+  opacity: 1;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.7s ease 0s;
+  z-index: 10;
+}
+.popup__body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+.popup__content {
+  border-radius: 35px;
+  background-color: #fff;
+  color: black;
+  max-width: 800px;
+  padding: 55px 118px 31px 72px;
+  position: relative;
+  top: 3vw;
+  left: 1vw;
+  transition: all 0.7s ease 0s;
+  opacity: 1;
+  transform: translate(0px, -200%);
+  z-index: 20;
+}
+.popup__title {
+  font-size: calc(32px + 30 * ((100vw - 320px) / (1920 - 320)));
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.popup__title span {
+  font-size: calc(32px + 30 * ((100vw - 320px) / (1920 - 320)));
+}
+.popup__close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: calc(80px + 35 * ((100vw - 320px) / (1920 - 320)));
+  font-weight: bold;
+  color: #ffc600;
+  text-decoration: none;
+  transform: rotate(136deg);
+}
+.popup__area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+.popup:target .popup__content {
+  opacity: 1;
+  transform: translate(0px, 0px);
+}
+.popup__ticket {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+.popup__btn {
+  margin-left: 2%;
+  background-color: #ffc600;
+  width: 370px;
+}
+.popup__decor-ul {
+  top: -120px;
+  left: -21px;
+  gap: 16px;
+  transform: rotate(88deg);
+}
+.popup__content::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 235px;
+    height: 240px;
+    left: 81%;
+    top: -18%;
+    border-radius: 50%;
+    background-image: url(../images/search-page/circle.png);
+    filter: blur(25px);
+    box-shadow: -30px -20px 10px 0px #fb731257, 10px -1px 10px 0px #f9d658;
+    z-index: -1;
+  }
+  .popup__content::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 443px;
+    height: 413px;
+    left: -41%;
+    bottom: -19%;
+    background-image: url(../images/search-page/elips.png);
+    filter: blur(25px);
+    z-index: -1;
+  }
+  .popup__ticket .direction-col__description {
+    width: 63%;
+  }
+  .popup__ticket .direction-col__description:last-child {
+    margin-bottom: 50px;
+  }
+  .select-passangers__title,
+  .select-passenger2__title {
+    white-space: nowrap;
+  }
+  .passanger-data__content .select__title {
+    padding: 8px 65px;
+  }
+
