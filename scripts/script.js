@@ -176,5 +176,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.getElementById('popup2').addEventListener('click', () => document.body.style.overflow = 'hidden');
-document.querySelector('.popup__area').addEventListener('click', () => document.body.style.overflow = 'auto')
-document.querySelector('.popup__close').addEventListener('click', () => document.body.style.overflow = 'auto')
+document.querySelector('.popup__area')?.addEventListener('click', () => document.body.style.overflow = 'auto')
+document.querySelector('.popup__close')?.addEventListener('click', () => document.body.style.overflow = 'auto')
